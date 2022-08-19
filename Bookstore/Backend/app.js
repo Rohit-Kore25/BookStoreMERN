@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const url = "mongodb+srv://RohitKore1425:Zoya1425@cluster0.qka5f.mongodb.net/bookStore?retryWrites=true&w=majority";
+const url = "mongodb+srv://RohitKore1425:<password>@cluster0.qka5f.mongodb.net/bookStore?retryWrites=true&w=majority";
 
 mongoose.connect(url,function(err){
   if(!err){
